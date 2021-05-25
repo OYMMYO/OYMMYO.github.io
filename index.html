@@ -10,8 +10,18 @@
   <body>
     <H1> Write your mention and print it</H1>
     
+    <input type = "text" id = "iinput"/>
+    
+    <script>
+      var mine = document.getElementById('iinput');
+      
+     function abcd(var sstring){
+     document.write(sstring);
+     }
+    <script/>
+    
     <form>
-      <input type = "button" value = "Print your input"/ onclick =<script> var yourinput = prompt("입력");  document.write(yourinput); <script/>>
+      <input type = "button" value = "Print your input" onclick ="abcd(mine)"/>
     </form>
   </body>
   
