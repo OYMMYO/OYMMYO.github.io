@@ -13,9 +13,17 @@
     <input type = "text" id = "iinput"/>
     
     <form>
-      <input type = "button" value = "Print your input" onclick = <script> var sstring = getElementById('input');
-                                                                           document.write(sstring); <script/>/>
+      <input type = "button" value = "Print your input" onclick = "button_click()"/>
     </form>
+    
+    <script>
+      
+      function button_click(){
+     var sstring = getElementById('iinput');
+       document.write(sstring);
+     }
+    <script/>
+    
   </body>
   
 </html>
